@@ -1,0 +1,112 @@
+body {
+    font-family: Inter, extrabold;
+    background-color: #F4F7FC;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel, .right-panel {
+    padding: 20px;
+}
+
+.left-panel {
+    width: 60%;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #0a3871;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #0a3871;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 20px;
+    background-color: #F4F7FC;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #0a3871;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:last-child {
+    background-color: #E8E8E8;
+    color: #333;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:last-child:hover {
+    background-color: #ccc;
+}
+
+small {
+    display: block;
+    margin-top: 20px;
+    color: #343a40;
+}
+
+.right-panel {
+    width: 40%;
+    background-color: #F4F7FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-panel img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-family: 'Inter', sans-serif; /* Usa la fuente 'Inter' */
+    font-weight: 700; /* Extra bold (o el peso que necesites) */
+    font-size: 32px; /* Tamaño de fuente */
+    color: #343a40; /* Color del texto */
+    margin-bottom: 20px; /* Espacio debajo del mensaje */
+}
+
+
+
+
+
+
